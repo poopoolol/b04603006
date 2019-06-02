@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+    <title>E-commerce website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a class="logo" href="index.html">SHOP</a>
+        <a class="logo" href="newproduct.html">ADD PRODUCTS</a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="newproduct.html">Addproducts</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="inner">
+            <h1>E-commerce website</h1>
+            <p>you can search and create new products here</p>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="wrapper" style="padding-left: 40px">
+        <div class="row">
+            <div class="col">
+                <h1>Add new products</h1>
+            </div>
+        </div>
+
+        <!-- 資料欄位 -->
+        <div class="row">
+            <div class="col">
+                <div class="form-group row">
+                    <label for="inputProductName" class="col-sm-2 col-form-label" style="padding-top:20px">product name</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="inputProductName" placeholder="請輸入商品名稱" value="XiaoMi auto hand washier">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="inputProductPrice" class="col-sm-2 col-form-label" style="padding-top:10px">product price</label>
+                    <div class="col-sm-9">
+                        <input type="number" class="form-control" id="inputProductPrice" placeholder="enter the price of the product" value="395">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="inputProductCount" class="col-sm-2 col-form-label" style="padding-top:10px">product amount</label>
+                    <div class="col-sm-9">
+                        <input type="number" class="form-control" id="inputProductCount" placeholder="enter the number of the product" value="10">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="inputProductImage" class="col-sm-2 col-form-label" style="padding-top:10px">picture link</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="inputProductImage" placeholder="ensert the link of your photo" value="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1542426682.20729915.png">
+                    </div>
+                </div>
+
+                <!-- 工具列 -->
+                <div class="form-group row">
+                    <div class="col">
+                        <button id="insert" type="button" class="btn btn-primary">insert product</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <div class="content">
+                    <section>
+                        <h3>This is only for educational use not for commercial use</h3>
+                    </section>
+                    <section>
+                        <h4>Get in touch with me</h4>
+                        <ul class="plain">
+                            <li><a href="https://twitter.com/poopoolool?s=09" target="_blank"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100002525258569" target="_blank"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="text-center">
+                    2019 &copy; ACfang@NTU
+                </div>
+            </div>
+        </footer>
+        <div id="dialog" class="modal" role="dialog" style="margin-top: 80px">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">system message</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="message">show message</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="closewindow">close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 引入 Bootstrap 的 JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/index.js"></script>
+        <script src="assets/js/newproduct.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Scripts -->
+</body>
+
+</html>
